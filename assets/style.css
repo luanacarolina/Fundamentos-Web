@@ -1,3 +1,57 @@
+
 .center {
     text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2{
+    font-family: 'Playfair Display', serif;
+    color: #5DD9D5;
+}
+#menu li{
+    display: inline;
+    padding: 3rem;
+    
+   
+}
+.nav{
+    background-color: #3BD99C;
+    padding: 2rem;
+}
+.mb-30{
+    margin-bottom: 3rem;
+}
+.justify{
+    text-align: justify;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+#menu a:hover{
+    color: #5DDED5;
+}
+.p-30{
+    padding: 3rem;
+}
+.img img{
+    width: 350px;
+    height: 400px;
+    border-radius: 50%;
+}
+footer img{
+    padding: 1rem;
+    
+}
+footer{
+    background-color: #3BD99C;
+
 }
